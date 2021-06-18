@@ -1,0 +1,180 @@
+body {
+  font-family: Lato, sans-serif;
+}
+
+.showcase-wrapper {
+  display: block;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.showcase {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-align: center;
+  top: 0;
+  left: 0;
+}
+.showcase:nth-child(1) {
+  background: #9af600;
+}
+.showcase:nth-child(2) {
+  background: #ececec;
+}
+.showcase:nth-child(3) {
+  background: #9af600;
+}
+.showcase:nth-child(4) {
+  background: #ececec;
+}
+a.showcase__link {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-decoration: none;
+  font-size: 50px;
+  color: black;
+}
+a.showcase__link:hover {
+  text-decoration: underline;
+}
+
+footer {
+  width: 100%;
+  height: 200px;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: block;
+  text-align: center;
+}
+footer a {
+  font-size: 16px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-decoration: none;
+}
+
+body {
+  font-family: "Xanh Mono", monospace;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: orangered;
+}
+
+.section1 {
+  background-image: url("../img/F11.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 98vh;
+}
+
+.nav-item, .navbar-brand {
+  width: 20vw;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: #344a62;
+  font-family: "Xanh Mono", monospace;
+  font-weight: bold;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 4.5rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation Titre*/
+.anim-typewriter {
+  -webkit-animation: typewriter 4s steps(16) 0.4s 1 normal both, blinkTextCursor 700ms steps(16) infinite normal;
+          animation: typewriter 4s steps(16) 0.4s 1 normal both, blinkTextCursor 700ms steps(16) infinite normal;
+}
+
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.header2 {
+  background-color: #344a62;
+  height: 10vh;
+}
+
+legend {
+  text-decoration: underline;
+  font: 2rem bold;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+input {
+  width: 18vw;
+  margin-top: 10px;
+}
+
+.inscription, .connexion {
+  background-color: #adbaca;
+  padding: 40px;
+}
+
+.footer {
+  height: 10vh;
+  background-color: #344a62;
+}/*# sourceMappingURL=style.css.map */

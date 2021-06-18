@@ -1,0 +1,115 @@
+body {
+  font-family: "Xanh Mono", monospace;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  color: orangered;
+}
+
+#fondImg {
+  background-image: url("../img/F12.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 88.7vh;
+  width: auto;
+}
+
+.nav-item, .navbar-brand {
+  width: 19vw;
+  font-size: 1.5rem;
+}
+
+h1 {
+  color: #344a62;
+  font-family: "Xanh Mono", monospace;
+  font-weight: bold;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  margin: 0 auto;
+  border-right: 2px solid rgba(255, 255, 255, 0.75);
+  font-size: 4.5rem;
+  text-align: center;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+/* Animation Titre*/
+.anim-typewriter {
+  -webkit-animation: typewriter 4s steps(16) 0.4s 1 normal both, blinkTextCursor 700ms steps(16) infinite normal;
+          animation: typewriter 4s steps(16) 0.4s 1 normal both, blinkTextCursor 700ms steps(16) infinite normal;
+}
+
+@-webkit-keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@-webkit-keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: rgba(255, 255, 255, 0.75);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
+h2 {
+  color: white;
+  font-weight: bold;
+}
+
+.header2 {
+  background-color: #344a62;
+  height: 10vh;
+}
+
+legend {
+  text-decoration: underline;
+  font: 2rem bold;
+}
+
+label {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
+
+input {
+  width: 18vw;
+  margin-top: 10px;
+}
+
+.inscription, .connexion {
+  background-color: #adbaca;
+  padding: 40px;
+}
+
+.footer {
+  height: 6vh;
+  background-color: #344a62;
+}/*# sourceMappingURL=style.css.map */
