@@ -7,7 +7,7 @@
     <div class="collapse navbar-collapse text-center" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Chercher</a>
+          <a class="nav-link active" aria-current="page" href="http://localhost/TP/pages/search.php">Chercher</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">Comparer</a>

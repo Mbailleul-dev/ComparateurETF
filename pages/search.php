@@ -17,11 +17,25 @@
 
     <header>
         <?php include "pages/nav_bar.php"; ?>
-        <?php include "pages/header.php"; ?>
+        <?php include "pages/header2.php"; ?>
     </header>
 <div>
 
+// End-of-Day Data API Endpoint
 
+http://api.marketstack.com/v1/eod
+    ? access_key = YOUR_ACCESS_KEY
+    & symbols = AAPL
+    
+// optional parameters: 
+
+    & sort = DESC
+    & date_from = YYYY-MM-DD
+    & date_to = YYYY-MM-DD
+    & limit = 100
+    & offset = 0
+
+    
 </div>
 
     <footer>
